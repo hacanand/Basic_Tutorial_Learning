@@ -12,3 +12,8 @@ identity_second(3);
 function identity_four<T>(val: T):T{
     return val;
 }
+
+
+function anotherFunction<T, U>(val: T, valTwo: U): object{
+    return {val, valTwo}
+}
